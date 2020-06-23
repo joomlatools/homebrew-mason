@@ -6,10 +6,10 @@ class Mason < Formula
 
   if OS.mac?
     url "http://files.joomlatools.com/mason@#{version}/mason-macos.tar.gz"
-    sha256 "2e0c58f746e3776dd0f17fb6b1aa4ec923796f20559ce380b1cd87a6444f4ebd"
+    sha256 "0bc2e4ea194905b9847531a0474f66a8a1935e654e7f33deda7e7bbaabf53899"
   elsif OS.linux?
     url "http://files.joomlatools.com/mason@#{version}/mason-linux.tar.gz"
-    sha256 "1f6bd015637cc5d7976996ddd5daafe238bd155f5e162d8f2c1656a38b43187b"
+    sha256 "692ab12ee106d051f04872426e780430ea579eda951cf55173fb2b70f551c80a"
   end
 
   def install
