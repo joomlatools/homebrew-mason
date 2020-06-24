@@ -5,10 +5,10 @@ class Mason < Formula
   version "{{version}}"
 
   if OS.mac?
-    url "http://files.joomlatools.com/mason@#{version}/mason-macos.tar.gz"
+    url "https://files.joomlatools.com/mason@#{version}/mason-macos.tar.gz"
     sha256 "{{macosSha256}}"
   elsif OS.linux?
-    url "http://files.joomlatools.com/mason@#{version}/mason-linux.tar.gz"
+    url "https://files.joomlatools.com/mason@#{version}/mason-linux.tar.gz"
     sha256 "{{linuxSha256}}"
   end
 
