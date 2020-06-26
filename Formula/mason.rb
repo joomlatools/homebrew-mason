@@ -2,14 +2,14 @@ class Mason < Formula
   desc "General masonry"
   homepage "https://github.com/joomlatools/mason"
 
-  version "0.1.1"
+  version "0.1.2"
 
   if OS.mac?
     url "https://files.joomlatools.com/mason@#{version}/mason-macos.tar.gz"
-    sha256 "f73e0a0af1c08ebf98b5c494fd26d1f239115eb01df0477a33ff97715bb57759"
+    sha256 "c0afbc1aa34fd9284a1a8e5f809f86659c41a293afe1231fd0d252e3aeef9b45"
   elsif OS.linux?
     url "https://files.joomlatools.com/mason@#{version}/mason-linux.tar.gz"
-    sha256 "ea409e5ae32df3bc41171ab958f2c2abcfc7af19616472330b3ca31bfbd79394"
+    sha256 "fd09969b0dbf2613abbed681d676e3a165367741ce6095738d1b5444e51c07bd"
   end
 
   def install
